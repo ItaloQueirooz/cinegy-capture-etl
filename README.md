@@ -16,7 +16,7 @@ A análise dos dados extraídos revelou que não havia falha sistêmica, mas sim
    
 2. **Transformação (Transform):** O script `processar_arquivos.py` lê os dumps dos 4 servidores (Cinegy 1 a 4), padroniza os campos necessários de status (ex: "FINALIZADO") e mapeia os caminhos dinâmicos dos arquivos gerados, lidando com as variações de Workflow (Ingest, Clip, Live) e Codec (MP4 vs MXF).
 
-3. **Carga e Análise (Load):** O Python compila as informações processadas e gera uma planilha consolidada (`CinegyLivemodeGrade.xlsx`). Foi através desta planilha que a trilha dos arquivos pôde ser auditada com clareza.
+3. **Carga e Análise (Load):** O Python compila as informações processadas e gera uma planilha consolidada (`CinegyLGrade.xlsx`). Foi através desta planilha que a trilha dos arquivos pôde ser auditada com clareza.
 
 ## 🚀 Como Executar
 
